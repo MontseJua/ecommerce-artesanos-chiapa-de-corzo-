@@ -22,7 +22,7 @@ git clone https://github.com/MontseJua/ecommerce-artesanos-chiapa-de-corzo-.git
 ### 2. Entrar al proyecto
 
 ```bash
-cd ecommerce
+cd ecommerce ó ecommerce-artesanos-chiapa-de-corzo-
 ```
 
 ### 3. Instalar dependencias

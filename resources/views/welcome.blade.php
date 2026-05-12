@@ -17,40 +17,40 @@
         <!-- HEADER -->
         <header class="border-b-4 border-orange-400 bg-[#7a2e1f]/90 text-white shadow-lg">
 
-            <div class="container mx-auto flex justify-between items-center p-5">
+            <div class="container mx-auto flex flex-col md:flex-row justify-between items-center p-5 gap-4">
 
                 <!-- TITULO -->
-                <div>
+                <div class="text-center md:text-left">
 
-                    <h1 class="text-4xl font-extrabold tracking-wide">
+                    <h1 class="text-3xl md:text-4xl font-extrabold tracking-wide">
                         Raíces de Chiapas
                     </h1>
 
-                    <p class="text-orange-200 text-sm">
+                    <p class="text-orange-200 text-sm md:text-base">
                         Artesanías tradicionales de Chiapa de Corzo
                     </p>
 
                 </div>
 
                 <!-- BOTONES -->
-                <div class="space-x-3">
+                <div class="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
 
                     <a href="/cart"
-                       class="bg-orange-500 hover:bg-orange-600 transition px-5 py-2 rounded-lg font-bold shadow-md">
+                       class="bg-orange-500 hover:bg-orange-600 transition px-5 py-2 rounded-lg font-bold shadow-md text-center">
                         🛒 Carrito
                     </a>
 
                     @auth
 
                         <a href="/dashboard"
-                           class="bg-black hover:bg-gray-800 transition px-5 py-2 rounded-lg font-bold shadow-md">
+                           class="bg-black hover:bg-gray-800 transition px-5 py-2 rounded-lg font-bold shadow-md text-center">
                             Dashboard
                         </a>
 
                     @else
 
                         <a href="/login"
-                           class="bg-black hover:bg-gray-800 transition px-5 py-2 rounded-lg font-bold shadow-md">
+                           class="bg-black hover:bg-gray-800 transition px-5 py-2 rounded-lg font-bold shadow-md text-center">
                             Login
                         </a>
 
@@ -68,11 +68,11 @@
         <!-- HERO -->
         <section class="text-center text-white py-16 px-6">
 
-            <h2 class="text-5xl font-extrabold mb-6 drop-shadow-lg">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-6 drop-shadow-lg leading-tight">
                 Arte y tradición chiapaneca
             </h2>
 
-            <p class="text-xl max-w-3xl mx-auto text-orange-100">
+            <p class="text-lg md:text-xl max-w-3xl mx-auto text-orange-100">
                 Descubre productos hechos a mano por artesanos de Chiapa de Corzo,
                 preservando la cultura, tradición y creatividad de nuestra región.
             </p>
